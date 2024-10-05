@@ -259,6 +259,9 @@ header .buttons button:hover {
     nav .fristP, nav .p3 {
         display: none !important;
     }
+    nav .p4 .messages {
+        margin-right: 10px;
+    }
 }
 
 @media (max-width: 960px) {
