@@ -55,6 +55,11 @@ nav .logo {
     margin-left: 0px;
     position: relative;
     background: none;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
 }
 
 nav .logo::after {
@@ -69,7 +74,7 @@ nav .logo::after {
 
 nav a.logo:hover {
     text-decoration: none;
-    /* box-shadow: 0 0 20px #fff; */
+    text-shadow: 0 0 15px #fff;
 }
 
 nav .allP {
